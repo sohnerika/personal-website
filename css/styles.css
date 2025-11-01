@@ -1,0 +1,72 @@
+/* Basic page setup */
+body {
+    font-family: 'Arial', sans-serif;      /* custom font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;             /* light background */
+    color: #333;
+}
+
+/* Header / Navigation */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    margin: 10px 0 20px 20px;
+}
+
+/* Footer / Contact */
+footer {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add spacing / layout tweaks */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
